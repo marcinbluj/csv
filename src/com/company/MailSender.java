@@ -14,13 +14,11 @@ public class MailSender {
         email.setHostName("smtp.googlemail.com");
         email.setSmtpPort(465);
         email.setAuthentication("javandwro1@gmail.com", "javand1wro");
-        email.setSSL(true);
+        email.setSSLOnConnect(true);
         email.setFrom("javandwro1@gmail.com");
         email.setSubject(title);
         email.setMsg(content);
         email.addTo(address);
         email.send();
-
-
     }
 }
