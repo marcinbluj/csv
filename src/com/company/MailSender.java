@@ -2,9 +2,6 @@ package com.company;
 
 import org.apache.commons.mail.*;
 
-/**
- * Created by RENT on 2017-01-10.
- */
 public class MailSender {
     public static void sendMail(String address, String title, String content) throws EmailException {
         MultiPartEmail email = new MultiPartEmail();
