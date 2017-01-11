@@ -21,7 +21,5 @@ public class MailSender {
         email.addTo(address);
         email.send();
 
-        //
     }
-
 }
