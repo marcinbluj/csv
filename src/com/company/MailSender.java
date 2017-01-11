@@ -20,7 +20,7 @@ public class MailSender {
         email.setMsg(content);
         email.addTo(address);
         email.send();
-
+//
 
     }
 
