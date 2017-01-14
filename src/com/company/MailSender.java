@@ -15,7 +15,7 @@ public class MailSender {
         email.setSmtpPort(465);
         email.setAuthentication("", "");
         email.setSSLOnConnect(true);
-        email.setFrom("javandwro1@gmail.com");
+        email.setFrom("");
         email.setSubject(title);
         email.setMsg(content);
         email.addTo(address);
