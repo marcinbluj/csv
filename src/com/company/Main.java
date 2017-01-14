@@ -10,7 +10,7 @@ public class Main {
 
     CSV.saveArrayToCSV(data, "C://Users/RENT/Desktop/CSV.csv");
         try {
-            new MailSender().sendMail("marcinbluj21@gmail.com", "Spam", "spam");
+            new MailSender().sendMail("mail@mail", "Spam", "spam");
         } catch (EmailException e) {
             e.printStackTrace();
         }
