@@ -13,7 +13,7 @@ public class MailSender {
         email.attach(attachment);
         email.setHostName("smtp.googlemail.com");
         email.setSmtpPort(465);
-        email.setAuthentication("javandwro1@gmail.com", "javand1wro");
+        email.setAuthentication("", "");
         email.setSSLOnConnect(true);
         email.setFrom("javandwro1@gmail.com");
         email.setSubject(title);
